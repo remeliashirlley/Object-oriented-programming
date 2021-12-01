@@ -1,6 +1,6 @@
 #### P1. Write a program that reads a character from the user and then uses a switch statement to achieve what the following if statement does.  
-if  ((choice == ‘A’)  || (choice == ‘a’))<br />
-> printf(“Action movie fan\n”);<br />
+> if  ((choice == ‘A’)  || (choice == ‘a’))<br />
+printf(“Action movie fan\n”);<br />
 else if  ((choice == ‘C’)  || (choice == ‘c’))<br />
 printf(“Comedy movie fan\n”);<br />
 else if  ((choice == ‘D’)  || (choice == ‘d’))<br />
