@@ -2,11 +2,11 @@
 > if  ((choice == ‘A’)  || (choice == ‘a’))<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(“Action movie fan\n”);<br />
 else if  ((choice == ‘C’)  || (choice == ‘c’))<br />
-printf(“Comedy movie fan\n”);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(“Comedy movie fan\n”);<br />
 else if  ((choice == ‘D’)  || (choice == ‘d’))<br />
-printf(“Drama movie fan\n”);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(“Drama movie fan\n”);<br />
 else<br />
-printf(“Invalid choice\n”);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(“Invalid choice\n”);<br />
                     
 Test cases: ‘a’, ‘A’, ‘c’, ‘C’, ‘d’, ‘D’, ‘b’, ‘B’.<br />
 Expected outputs: ‘a’, ‘A’ – Action movie fan; ‘c’, ‘C’ – Comedy movie fan; ‘d’, ‘D’ – Drame movie fan; ‘b’, ‘B’ – Invalid choice.<br />
@@ -21,9 +21,9 @@ Expected outputs: (1) salary : $500, merit : 10 – Grade C; (2) salaray : $610,
 
 #### P3. Write a program to generate tables of currency conversions from Singapore dollars to US dollars. Use title and column headings. Assume the following conversion rate: 1 US dollar(US$) = 1.82 Singapore dollars (S$)
 > Allow the user to enter the starting value, ending value and the increment between lines in S$. The starting value, ending value and the increment are all integer values. Generate three output tables using the following loops with the same input data from the user:<br />
-1. Use a for loop to generate the first table;<br />
-2. Use a while loop to generate the second table; and<br />
-3. Use a do/while loop to generate the third table.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Use a for loop to generate the first table;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Use a while loop to generate the second table; and<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Use a do/while loop to generate the third table.<br />
 Test cases: (1) starting : 1, ending : 5, increment : 1; (2) starting : 0, ending : 40, increment: 5; (3)
 starting : 40, ending : 0, increment: 5 (treat this case as an error).<br />
 Expected outputs:<br />
@@ -49,7 +49,8 @@ US$         S$ <br />
  40       72.8<br /><br />
 (3) starting : 40, ending : 0, increment: 5 (treat this case as an error) – Error input!!<br />
 
-#### P4. Write a program that reads the height from a user and prints a pattern with the specified height. For example, when the user enters height = 3, the following pattern is printed:
+#### P4. Write a program that reads the height from a user and prints a pattern with the specified height. 
+> For example, when the user enters height = 3, the following pattern is printed:
 AA <br />
 BBAA <br />
 AABBAA <br />
