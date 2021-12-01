@@ -4,9 +4,9 @@ The following are the requirements an constraints :<br />
 - You should have a Class/Interface called Shape and decide its appropriate attributes and behaviours<br />
 - You should have basic shapes like Square, Rectangle, Circle and Triangle.<br />
 - The program will request the user to :<br />
-- 1. enter the total number of shapes<br />
-- 2. choose the shape and enter the required dimension/s for the selected shape<br />
-- 3. choose the type of calculation (for now, we will just calculate Area, with future plan to calculate Volume as well).<br />
+   1. enter the total number of shapes<br />
+   2. choose the shape and enter the required dimension/s for the selected shape<br />
+   3. choose the type of calculation (for now, we will just calculate Area, with future plan to calculate Volume as well).<br />
 - The calculation/s should be done upon user’s request and NOT when dimensions are entered.<br /><br />
 
 1. For a start, use the 2-D figure on the right to verify your program. The figure consists of a Circle (radius=10), a Triangle (height=25, base =20) and a Rectangle (length=50, breadth = 20) . Calculate the total area of the 2- D figure.
