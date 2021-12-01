@@ -26,14 +26,14 @@ B. Write a class Plane that comprises 12 seats. The class should create an array
 The class diagram is given below:<br />
 
 > Plane <br />
-- seat: PlaneSeat[ ]<br />
-- numEmptySeat:int<br />
-+ Plane()<br />
-- sortSeats() : PlaneSeat[ ]<br />
-+ showNumEmptySeats(): void<br />
-+ showEmptySeats(): void<br />
-+ showAssignedSeats(bySeatId : boolean): void + assignSeat(seatId : int, cust_id : int): void<br />
-+ unAssignSeat(seatId : int): void<br /><br />
+-seat: PlaneSeat[ ]<br />
+-numEmptySeat:int<br />
++Plane()<br />
+-sortSeats() : PlaneSeat[ ]<br />
++showNumEmptySeats(): void<br />
++showEmptySeats(): void<br />
++showAssignedSeats(bySeatId : boolean): void + assignSeat(seatId : int, cust_id : int): void<br />
++unAssignSeat(seatId : int): void<br /><br />
 
 where<br />
 seat – instance variable containing information on the seats in the plane. It is declared as an
