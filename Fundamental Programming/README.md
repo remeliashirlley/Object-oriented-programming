@@ -15,7 +15,7 @@ Expected outputs: ‘a’, ‘A’ – Action movie fan; ‘c’, ‘C’ – Co
 Salary range for grade A: $700 - $899 <br />
 Salary range for grade B: $600 - $799 <br />
 Salary range for grade C: $500 - $649 <br />
-A person whose salary is between $600 and $649 is in grade C if his merit points are below 10, otherwise he is in grade B. A person whose salary is between $700 and $799 is in grade B if his merit points are below 20, otherwise, he is in grade A. Write a program to read in a person’s salary and his merit points, and displays his grade.<br />
+A person whose salary is between $600 and $649 is in grade C if his merit points are below 10, otherwise he is in grade B. A person whose salary is between $700 and $799 is in grade B if his merit points are below 20, otherwise, he is in grade A. Write a program to read in a person’s salary and his merit points, and displays his grade.<br /><br />
 Test cases: (1) salary : $500, merit : 10; (2) salaray : $610, merit : 5; (3) salary : $610, merit : 10; (4) salary : $710, merit : 15; (5) salary : $710, merit : 20; (6) salary : 800, merit : 30.<br />
 Expected outputs: (1) salary : $500, merit : 10 – Grade C; (2) salaray : $610, merit : 5 – Grade C; (3) salary : $610, merit : 10 – Grade B; (4) salary : $710, merit : 15 – Grade B; (5) salary : $710, merit : 20 – Grade A; (6) salary : 800, merit : 30 – Grade A.<br />
 
@@ -34,7 +34,7 @@ US$         S$ <br />
 2 3.64<br />
 3 5.46<br />
 4 7.28<br />
-5 9.1<br />
+5 9.1<br /><br />
 (2) starting : 0, ending : 40, increment: 5;<br />
  US$      S$<br />
  --------------<br />
@@ -46,7 +46,7 @@ US$         S$ <br />
  25       45.5<br />
  30       54.6<br />
  35       63.7<br />
- 40       72.8<br />
+ 40       72.8<br /><br />
 (3) starting : 40, ending : 0, increment: 5 (treat this case as an error) – Error input!!<br />
 
 #### P4. Write a program that reads the height from a user and prints a pattern with the specified height. For example, when the user enters height = 3, the following pattern is printed:
