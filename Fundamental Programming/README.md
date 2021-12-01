@@ -1,6 +1,6 @@
 #### P1. Write a program that reads a character from the user and then uses a switch statement to achieve what the following if statement does.  
 > if  ((choice == ‘A’)  || (choice == ‘a’))<br />
-printf(“Action movie fan\n”);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(“Action movie fan\n”);<br />
 else if  ((choice == ‘C’)  || (choice == ‘c’))<br />
 printf(“Comedy movie fan\n”);<br />
 else if  ((choice == ‘D’)  || (choice == ‘d’))<br />
@@ -12,7 +12,7 @@ Test cases: ‘a’, ‘A’, ‘c’, ‘C’, ‘d’, ‘D’, ‘b’, ‘B�
 Expected outputs: ‘a’, ‘A’ – Action movie fan; ‘c’, ‘C’ – Comedy movie fan; ‘d’, ‘D’ – Drame movie fan; ‘b’, ‘B’ – Invalid choice.<br />
 
 #### P2. The salary scheme for a company is given as follows:
-Salary range for grade A: $700 - $899 <br />
+> Salary range for grade A: $700 - $899 <br />
 Salary range for grade B: $600 - $799 <br />
 Salary range for grade C: $500 - $649 <br />
 A person whose salary is between $600 and $649 is in grade C if his merit points are below 10, otherwise he is in grade B. A person whose salary is between $700 and $799 is in grade B if his merit points are below 20, otherwise, he is in grade A. Write a program to read in a person’s salary and his merit points, and displays his grade.<br /><br />
@@ -20,7 +20,7 @@ Test cases: (1) salary : $500, merit : 10; (2) salaray : $610, merit : 5; (3) sa
 Expected outputs: (1) salary : $500, merit : 10 – Grade C; (2) salaray : $610, merit : 5 – Grade C; (3) salary : $610, merit : 10 – Grade B; (4) salary : $710, merit : 15 – Grade B; (5) salary : $710, merit : 20 – Grade A; (6) salary : 800, merit : 30 – Grade A.<br />
 
 #### P3. Write a program to generate tables of currency conversions from Singapore dollars to US dollars. Use title and column headings. Assume the following conversion rate: 1 US dollar(US$) = 1.82 Singapore dollars (S$)
-Allow the user to enter the starting value, ending value and the increment between lines in S$. The starting value, ending value and the increment are all integer values. Generate three output tables using the following loops with the same input data from the user:<br />
+> Allow the user to enter the starting value, ending value and the increment between lines in S$. The starting value, ending value and the increment are all integer values. Generate three output tables using the following loops with the same input data from the user:<br />
 1. Use a for loop to generate the first table;<br />
 2. Use a while loop to generate the second table; and<br />
 3. Use a do/while loop to generate the third table.<br />
