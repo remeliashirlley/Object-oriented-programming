@@ -4,14 +4,14 @@ A. Write a class PlaneSeat that has the following features. Each PlaneSeat objec
 The class diagram is given below:<br />
 
 > PlaneSeat<br />
-- seatId: int<br />
-- assigned: boolean<br />
-- customerId: int<br />
-+ PlaneSeat(seat_id: int)<br />
-+ getSeatID(): int<br />
-+ getCustomerID(): int<br />
-+ isOccupied(): boolean<br />
-+ assign(cust_id: int): void + unAssign(): void<br /><br />
+-seatId: int<br />
+-assigned: boolean<br />
+-customerId: int<br />
++PlaneSeat(seat_id: int)<br />
++getSeatID(): int<br />
++getCustomerID(): int<br />
++isOccupied(): boolean<br />
++assign(cust_id: int): void + unAssign(): void<br /><br />
 
 where<br />
 PlaneSeat() - is the constructor for the class.<br />
@@ -87,49 +87,50 @@ Expected outputs:<br />
 (4)Show the list of seat assignments by customer ID <br />
 (5)Assign a customer to a seat<br />
 (6)Remove a seat assignment<br />
-(7) Exit<br />
+(7) Exit<br /><br />
 Enter the number of your choice: 5<br />
-Assigning Seat ..<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Assigning Seat ..<br />
 Please enter SeatID: 10<br />
 Please enter Customer ID: 10001 <br />
-Seat Assigned!<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Seat Assigned!<br />
 Enter the number of your choice: 5 <br />
-Assigning Seat ..<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Assigning Seat ..<br />
 Please enter SeatID: 12<br />
 Please enter Customer ID: 10002<br />
-Seat Assigned!<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Seat Assigned!<br />
 Enter the number of your choice: 5 <br />
-Assigning Seat ..<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Assigning Seat ..<br />
 Please enter SeatID: 8<br />
 Please enter Customer ID: 10003 <br />
-Seat Assigned!<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Seat Assigned!<br />
 Enter the number of your choice: 3 <br />
 The seat assignments are as follow: <br />
-SeatID 8 assigned to CustomerID 10003. <br />
-SeatID 10 assigned to CustomerID 10001. <br />
-SeatID 12 assigned to CustomerID 10002. <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SeatID 8 assigned to CustomerID 10003. <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SeatID 10 assigned to CustomerID 10001. <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SeatID 12 assigned to CustomerID 10002. <br />
 Enter the number of your choice: 4 <br />
 The seat assignments are as follow: <br />
-SeatID 10 assigned to CustomerID 10001. <br />
-SeatID 12 assigned to CustomerID 10002. <br />
-SeatID 8 assigned to CustomerID 10003. <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SeatID 10 assigned to CustomerID 10001. <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SeatID 12 assigned to CustomerID 10002. <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SeatID 8 assigned to CustomerID 10003. <br />
 Enter the number of your choice: 1 <br />
-There are 9 empty seats<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There are 9 empty seats<br />
 Enter the number of your choice: 2 <br />
-The following seats are empty: SeatID 1<br />
-SeatID 2<br />
-SeatID 3<br />
-SeatID 4<br />
-SeatID 5<br />
-SeatID 6<br />
-SeatID 7<br />
-SeatID 9<br />
-SeatID 11<br />
+The following seats are empty: <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SeatID 1<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SeatID 2<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SeatID 3<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SeatID 4<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SeatID 5<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SeatID 6<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SeatID 7<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SeatID 9<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SeatID 11<br />
 Enter the number of your choice: 5 <br />
-Assigning Seat ..<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Assigning Seat ..<br />
 Please enter SeatID: 8<br />
 Please enter Customer ID: 10004 <br />
-Seat already assigned to a customer.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Seat already assigned to a customer.<br />
 Enter the number of your choice: 6<br />
 Enter SeatID to unassign customer from: 10 <br />
-Seat Unassigned!
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Seat Unassigned!
