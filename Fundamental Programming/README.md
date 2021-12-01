@@ -1,6 +1,6 @@
 #### P1. Write a program that reads a character from the user and then uses a switch statement to achieve what the following if statement does.  
 if  ((choice == ‘A’)  || (choice == ‘a’))<br />
-printf(“Action movie fan\n”);<br />
+> printf(“Action movie fan\n”);<br />
 else if  ((choice == ‘C’)  || (choice == ‘c’))<br />
 printf(“Comedy movie fan\n”);<br />
 else if  ((choice == ‘D’)  || (choice == ‘d’))<br />
@@ -50,11 +50,16 @@ US$         S$ <br />
 (3) starting : 40, ending : 0, increment: 5 (treat this case as an error) – Error input!!<br />
 
 #### P4. Write a program that reads the height from a user and prints a pattern with the specified height. For example, when the user enters height = 3, the following pattern is printed:
-AA BBAA AABBAA
+AA <br />
+BBAA <br />
+AABBAA <br />
 If the height is 7, then the following pattern is printed:
-AA
-BBAA
-AABBAA BBAABBAA AABBAABBAA BBAABBAABBAA AABBAABBAABBAA
-Important: Remember to name the source code of this program as P4.java and name the compiled class code as P4.class inside the sub-directory lab1.
+AA<br />
+BBAA<br />
+AABBAA<br />
+BBAABBAA <br />
+AABBAABBAA <br />
+BBAABBAABBAA <br />
+AABBAABBAABBAA<br /><br />
 Test cases: 0, 3, 7
 Expected outputs: (1) height = 0 – Error input!! (2) height = 3 & (3) height = 7 – same as the sample patterns.
