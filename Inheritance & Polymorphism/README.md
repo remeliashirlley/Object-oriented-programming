@@ -1,6 +1,5 @@
 ## Calculate Surface Area of a Figure.
-By using the concepts of inheritance and polymorphism, you are required to design a program that calculate the total surface area of a figure. <br />
-The following are the requirements an constraints :<br />
+By using the concepts of inheritance and polymorphism, you are required to design a program that calculate the total surface area of a figure. The following are the requirements an constraints :<br />
 - You should have a Class/Interface called Shape and decide its appropriate attributes and behaviours<br />
 - You should have basic shapes like Square, Rectangle, Circle and Triangle.<br />
 - The program will request the user to :<br />
